@@ -1,0 +1,38 @@
+CS 2200 Fall 2013
+Project 4
+Name: Kelley Sheffield
+GT Number: 902601249
+
+Problem 1B
+----------
+
+As you add more CPUs, it takes less time to run a process. So there is not a linear relationship
+since it takes less time to exceute processes as you add CPUs.
+
+Problem 2B
+----------
+
+8 : 132 switches
+	67.9 execution time
+	333.1 seconds in READY state 
+
+6 : 157 switches
+    67.9 execution time
+    316.4 in READY state
+
+4 : 199 switches
+	67.9 execution time
+	309.8 in READY state
+
+2 : 359 switches
+	67.9 execution time
+	294.7 in READY state 
+
+Using a shorter timeslice results in more process switching, which is bad on the CPU 
+
+Problem 3B
+----------
+
+Round Robin because we feed the CPU a timeslice so it already knows how long to spend
+on each process. 
+
